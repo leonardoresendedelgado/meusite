@@ -1,0 +1,21 @@
+:root{
+    --body-color:#FFFAFA;
+}
+
+body{
+    background-color: var(--body-color);
+}
+.cabecario{
+    height:auto;
+    align-items: center;
+    display: flex;
+}
+.menu1{
+    width:100%;
+}
+.logo{
+    width:100%;
+}
+.menu2{
+    width:100%;
+}
