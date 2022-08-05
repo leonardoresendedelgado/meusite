@@ -1,21 +1,53 @@
 :root{
-    --body-color:#FFFAFA;
+    --body-color:#FFFFFF;
+    --link-color-cab:#000000;
+    font-family: 'Mitr', sans-serif;
 }
 
 body{
     background-color: var(--body-color);
 }
-.cabecario{
-    height:auto;
-    align-items: center;
+header{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(105,105,105,0.9248074229691877) 47%, rgba(255,255,255,1) 100%);
+}
+.cabecalio{
     display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 18px;
+     
 }
-.menu1{
-    width:100%;
+.logo img{
+    height: 200px;
 }
-.logo{
-    width:100%;
+
+.menu1 a{
+    font-size: 20px;
+    color: var(--link-color-cab);
+    text-decoration: none;
+    margin: 100px;
 }
-.menu2{
-    width:100%;
+.menu2 a{
+    font-size: 20px;
+    color: var(--link-color-cab);
+    text-decoration: none;
+    margin: 100px;
+}
+.menu1 a:hover,.menu2 a:hover{
+    transition: 1.7s;
+    color: aqua;
+}
+nav{
+    width: 100%;
+    font-size: 25px;
+    background-color:transparent; 
+    box-shadow: 0px 6px 20px 7px rgba(0,0,0,0.52);
+}
+
+main{
+    background-image: url(/img-pub1.png);
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
