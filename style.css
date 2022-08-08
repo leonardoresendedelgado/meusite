@@ -15,8 +15,7 @@ header{
     display: flex;
     justify-content:space-between;
     align-items:center;
-    padding: 10px 18px;
-     
+    padding: 10px 18px;  
 }
 .logo img{
     height: 200px;
@@ -28,12 +27,7 @@ header{
     text-decoration: none;
     margin: 100px;
 }
-.menu2 a{
-    font-size: 20px;
-    color: var(--link-color-cab);
-    text-decoration: none;
-    margin: 100px;
-}
+
 .menu1 a:hover,.menu2 a:hover{
     transition: 1.7s;
     color: aqua;
@@ -46,7 +40,7 @@ nav{
     display: flex;
     justify-content:space-around;
     align-items:center;
-    .
+    
 }
 .link{
     font-size: 35px;
