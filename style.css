@@ -3,12 +3,14 @@
     --link-color-cab:#000000;
     font-family: 'Mitr', sans-serif;
     --boton-git:rgb(5, 27, 44);
+    --pub-1: rgb(255, 255, 255, 0.4);
 }
 header{
     background-color: var(--body-color);
     width: 100%;
     height: 150px;
     text-align: center;
+    box-shadow: 1px 0 5px rgba(255, 255, 255);
 }
 header img{
     width: 250px;
@@ -25,33 +27,38 @@ header img{
     color: rgb(252, 247, 248);
     display: flex;
     -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    width: fit-content;
     font-size: 1.2rem;
     padding: 0.3rem 1.5rem;
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
 }
-.linkalura{
-    position: absolute;
+footer{
+    background-color: var(--body-color);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 0;
     position: fixed;
-    z-index: 10;
-    top: 0px;
-    left: 80vw;
-    text-decoration: none;
-    background-color: rgb(5, 27, 44);
-    font-family: "Source Sans Pro", sans-serif;
-    color: rgb(252, 247, 248);
-    display: flex;
-    -webkit-box-align: center;
+    width: 100%;
     align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    width: fit-content;
-    font-size: 1.2rem;
-    padding: 0.3rem 1.5rem;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
+    float: left;
+    box-shadow: 1px 0 5px rgba(255, 255, 255);
 }
+.img-logo-roda{
+    height: 90%;
+    width: 40%;
+    display: inline-block;
+}
+.img-logo-roda img{
+    width: 160px;
+    margin-bottom: 40px;
+}
+.informativo{
+    width: 30%;
+    display: inline-block;
+}
+.direitos{
+    width: 30%;
+    display: inline-block;
+}
+
