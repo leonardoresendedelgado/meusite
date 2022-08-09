@@ -3,7 +3,7 @@ body{
   padding:0px;
 	font-family: "Open Sans", arial;
     @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-    background-image: url(/img/img-pub1.png);
+    background-image: url(/img/fundo.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,7 +83,6 @@ width:90px;
 overflow:hidden;
 -webkit-transition:width .2s linear;
 transition:width .2s linear;
-
 box-shadow: 1px 0 5px rgba(255, 255, 255);
   opacity:1;
 }

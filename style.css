@@ -3,7 +3,8 @@
     --link-color-cab:#000000;
     font-family: 'Mitr', sans-serif;
     --boton-git:rgb(5, 27, 44);
-    --pub-1: rgb(255, 255, 255, 0.4);
+    --pub-1: rgb(119,136,153);
+    --pub-2:rgb(255, 255, 255, 0.2);
 }
 header{
     background-color: var(--body-color);
@@ -38,7 +39,7 @@ footer{
     height: 100px;
     text-align: center;
     bottom: 0;
-    position: fixed;
+    position:relative;
     width: 100%;
     align-items: center;
     float: left;
